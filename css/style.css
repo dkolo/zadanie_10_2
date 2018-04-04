@@ -3,18 +3,35 @@
 	margin: 30px auto;
 	width: 400px;
 	height: 300px;
-	border: 1px solid ##58716DFF;
+	border: 10px solid ##58716DFF;
 	overflow: hidden;
 }
 ul {
+	position: relative;
 	padding: 0px;
 	margin: 0px;
 	width: 2000px;
 	list-style: none;
     list-style-type: none;
 }
-li {
+ul li {
 	float: left;
 	list-style: none;
-
+}
+[class*="arrow-"] {
+	display: block;
+	position: absolute;
+	top: 50%;
+	margin-top: -15px;
+}
+.arrow-left {
+	margin-left: 5%;
+}
+.arrow-right {
+	margin-left: 95%;
+}
+.fa {
+	color: #fff;
+	font-weight: 800;
+	font-size: 22px;
 }
