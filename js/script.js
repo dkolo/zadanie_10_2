@@ -18,5 +18,5 @@ $(function() {
     var moveLeft = $('.arrow-right'),
     	moveRight = $('.arrow-left');
     moveLeft.click(changeSlide);
-    moveRight.click(previousSlide, setInterval(changeSlide, 5000));
+    moveRight.click(previousSlide);
 });
