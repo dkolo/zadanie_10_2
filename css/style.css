@@ -17,6 +17,8 @@ ul {
 ul li {
 	float: left;
 	list-style: none;
+	width: 400px;
+	height: 300px;
 }
 [class*="arrow-"] {
 	display: block;
