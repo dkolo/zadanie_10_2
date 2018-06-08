@@ -22,11 +22,11 @@ $(function slider() {
 
     }
 
-    $('.arrow-right').click(function (){
+    $('.arrow-right').click(function() {
         changeSlide();
         clearInterval(interval);
     });
-    $('.arrow-left').click(function (){
+    $('.arrow-left').click(function() {
         previousSlide();
         clearInterval(interval);
     });

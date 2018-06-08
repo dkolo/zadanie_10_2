@@ -1,39 +1,45 @@
 #carousel {
-	position: relative;
-	margin: 30px auto;
-	width: 400px;
-	height: 300px;
-	border: 10px solid ##58716DFF;
-	overflow: hidden;
+    position: relative;
+    margin: 30px auto;
+    width: 400px;
+    height: 300px;
+    border: 10px solid ##58716DFF;
+    overflow: hidden;
 }
+
 ul {
-	position: relative;
-	padding: 0px;
-	margin: 0px;
-	width: 2000px;
-	list-style: none;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    width: 2000px;
+    list-style: none;
     list-style-type: none;
 }
+
 ul li {
-	float: left;
-	list-style: none;
-	width: 400px;
-	height: 300px;
+    float: left;
+    list-style: none;
+    width: 400px;
+    height: 300px;
 }
+
 [class*="arrow-"] {
-	display: block;
-	position: absolute;
-	top: 50%;
-	margin-top: -15px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
 }
+
 .arrow-left {
-	margin-left: 5%;
+    margin-left: 5%;
 }
+
 .arrow-right {
-	margin-left: 95%;
+    margin-left: 95%;
 }
+
 .fa {
-	color: #fff;
-	font-weight: 800;
-	font-size: 22px;
+    color: #fff;
+    font-weight: 800;
+    font-size: 22px;
 }
